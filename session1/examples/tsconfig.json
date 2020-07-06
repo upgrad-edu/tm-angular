@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "outDir": "./dist",
+        "target": "es5",
+        "watch": true
+    }
+}
