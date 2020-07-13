@@ -4,3 +4,4 @@ customerId = {
     pre: 'CUSTOMER01',
     post: 41410,
 };
+console.log(customerId);

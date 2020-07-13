@@ -1,4 +1,4 @@
-class amount {
+class CostOfTickets {
     ticketPrice: number;
     numberOfTickets: number;
 
@@ -6,8 +6,10 @@ class amount {
             this.ticketPrice = price;
             this.numberOfTickets = ticketsBooked;
     }
-
+    public calculateAmount() {
+          return this.ticketPrice * this.numberOfTickets;
+    }
 }
 
-let ticketOne = new amount(450, 3);
-console.log(ticketOne);
+let ticketOne = new CostOfTickets(450, 3);
+console.log(ticketOne.calculateAmount());

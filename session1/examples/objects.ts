@@ -1,4 +1,4 @@
-var customer = {
+let customer = {
     firstName: "Ifrah",
     lastName: "Malik",
     customerId: "C0001",    

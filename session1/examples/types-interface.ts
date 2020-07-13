@@ -14,7 +14,7 @@ let address: Address = {
     street: "Fort Street",
     city: "Mumbai",
     pin: 400001,
-    state: "Maharashtra",
+    state: "Maharashtra"
 };
 
 const getAddress = (address:  Address): Address => {
@@ -29,3 +29,6 @@ const updateAddress = (address:  Address): Address => {
 
 getAddress(address);
 updateAddress(address);
+
+console.log(getAddress(address)); 
+console.log(updateAddress(address));
