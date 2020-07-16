@@ -1,4 +1,4 @@
-class CostOfTickets {
+class Booking {
     ticketPrice: number;
     numberOfTickets: number;
 
@@ -11,5 +11,5 @@ class CostOfTickets {
     }
 }
 
-let ticketOne = new CostOfTickets(450, 3);
+let ticketOne = new Booking(450, 3);
 console.log(ticketOne.calculateAmount());

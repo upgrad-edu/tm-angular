@@ -1,9 +1,6 @@
-const customer: object ={
+var customer = {
     firstName: "Ifrah",
     lastName: "Malik",
-    customerId: "C0001",    
-} 
-
+    customerId: "C0001"
+};
 console.log(customer);
-
-
