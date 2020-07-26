@@ -1,9 +1,9 @@
 //Enacpsulation
-class RoleType {
-    private roleType: string;
-    constructor(roleType: string) 
+class RoleName {
+    private role: string;
+    constructor(role: string) 
         { 
-           this.roleType = roleType;    
+           this.role = role;    
         }    
     }
    
