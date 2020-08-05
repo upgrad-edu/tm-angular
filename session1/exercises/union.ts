@@ -1,0 +1,12 @@
+let theatreName: string = "Inox";
+let numberOfSeats: number = 350;
+let movieScreens: number[] = [10, 11, 12];
+let resturantDetails: [string, number] = ["MacD",1];
+enum MovieStaus {Upcoming, Ongoing, Deleted};
+let tenet: string = MovieStaus[1];
+console.log(tenet);
+let theatreLocation : string | number;
+theatreLocation  = "Worli Naka";
+console.log(theatreLocation);
+theatreLocation = 400018 ;
+console.log(theatreLocation);
